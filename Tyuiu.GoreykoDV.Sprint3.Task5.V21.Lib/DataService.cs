@@ -13,13 +13,12 @@ namespace Tyuiu.GoreykoDV.Sprint3.Task5.V21.Lib
             {
                 for(j = startValue2; j <= stopValue2; j++)
                 {
-                    sumSeries += (Math.Pow(x, 3) * Math.Cos(j));
+                    sumSeries += (Math.Pow(x, 3) * Math.Cos(j)+2);
                 }
                 
             }
 
-            sumSeries += 2;
-
+            
             return Math.Round(sumSeries, 3);
         }
     }

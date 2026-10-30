@@ -13,7 +13,7 @@ namespace Tyuiu.GoreykoDV.Sprint3.Task4.V29.Lib
             {
                 if(x==0)
                 {
-                    break;
+                    continue;
                 }
                 else
                 {
